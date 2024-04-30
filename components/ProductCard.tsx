@@ -61,7 +61,7 @@ const ProductCard: FC<product> = ({ id, title, price, image, category, descripti
                         <h2 className="font-bold text-gray-700">{`$${price}`}</h2>
                         <div className="flex items-center gap-2">
                             <div className='flex items-center gap-1'>
-                            {renderStars()}
+                                {renderStars()}
                             </div>
                             <Button className="text-white  transition duration-300"><FaPlus /></Button>
                         </div>
